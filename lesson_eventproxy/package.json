@@ -1,0 +1,11 @@
+{
+  "name": "lesson_eventproxy",
+  "version": "1.0.0",
+  "description": "spider by eventproxy to concurrent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kebo",
+  "license": "ISC"
+}
