@@ -69,3 +69,7 @@ git branch -d dev  	//delete branch dev
 confix branch
 
 git checkout -b feature    //create a new branch is simple & quick.
+
+git log --graph --pretty=oneline --abbrev-commit
+
+git commit --no-ff -m "string"     //fast forward is forbided
