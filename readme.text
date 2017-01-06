@@ -5,11 +5,22 @@ git commit --amend --reset-author
 git add <file>
 git commit -m "Initial a first commit!"
 git status
-git diff <file>
-git log
+git diff <file>                  //show difference between workspace and stage
+git log				
 git log --pretty=oneline
-git reset --hard HEAD^
-git reset --hard HEAD~100
-git reset --hard <SHA1>
-git reflog
-git diff HEAD -- ./readme.text
+git reset --hard HEAD^		//reset to the last version
+git reset --hard HEAD~100	//reset to the 100
+git reset --hard <SHA1>		//reset to a specific version
+git reflog			//show all history commandline that U input
+git diff HEAD -- ./readme.text	//show difference between HEAD and workspace
+git checkout -- ./readme.text    //make this file back to the lastest version of "git commit" or "git add"
+git reset HEAD -- ./readme.text  //reset changes from stage to workspace . Unstage. workspace still maintain the changes.
+git rm          		 //remove a file.
+
+
+
+
+Create SSH
+	
+	ssh-keygen -t rsa -C "07_master@sina.com"   //url:root/.ssh
+	
