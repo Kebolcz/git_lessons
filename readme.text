@@ -111,3 +111,21 @@ git branch --set-upstream dev origin/dev
 如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，
 用命令git branch --set-upstream branch-name origin/branch-name。
 
+
+Tag--------------------------------------------------------------------------------------------------->
+git tag     //show tag list
+git tag <tagname>     //show information about tag
+
+git tag <tagname>     //if tagName is not exist,then create a tag on current commit
+git tag <tagname> <SHA1>                //tag a commit
+
+
+
+    命令git push origin <tagname>可以推送一个本地标签；
+
+    命令git push origin --tags可以推送全部未推送过的本地标签；
+
+    命令git tag -d <tagname>可以删除一个本地标签；
+
+    命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
+
