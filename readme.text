@@ -6,3 +6,10 @@ git add <file>
 git commit -m "Initial a first commit!"
 git status
 git diff <file>
+git log
+git log --pretty=oneline
+git reset --hard HEAD^
+git reset --hard HEAD~100
+git reset --hard <SHA1>
+git reflog
+git diff HEAD -- ./readme.text
