@@ -1,3 +1,11 @@
+/*
+*	http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+*	liaoxuefeng --> github
+*/
+
+
+
+
 git init 
 git config --global user.name "kebolcz"
 git config --global user.email "07_master@sina.com"
@@ -19,8 +27,43 @@ git rm          		 //remove a file.
 
 
 
+//url:http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000
 
 Create SSH
 	
 	ssh-keygen -t rsa -C "07_master@sina.com"   //url:root/.ssh
-	
+
+Then add public key on github homepage Account SSH Key
+
+Then create a new repository.
+
+git remote add origin https://github.com/Kebolcz/git_lessons.git
+git push -u origin master
+
+Then the next time u want to push local repo,use    git push origin master
+
+Branch -------------------------------------------------------------------------->
+	git checkout -b dev    
+equals   
+	git branch dev        git checkout dev
+
+
+git branch   //show branchs
+
+git merge dev //merge branch"dev" to this branch
+
+git branch -d dev  	//delete branch dev
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+
+confix branch
