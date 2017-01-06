@@ -72,4 +72,4 @@ git checkout -b feature    //create a new branch is simple & quick.
 
 git log --graph --pretty=oneline --abbrev-commit
 
-git commit --no-ff -m "string"     //fast forward is forbided
+git merge --no-ff -m "merge with --no-ff" dev  (HEAD->master)
