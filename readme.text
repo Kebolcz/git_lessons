@@ -69,4 +69,3 @@ git branch -d dev  	//delete branch dev
 confix branch
 
 git checkout -b feature    //create a new branch is simple & quick.
-
