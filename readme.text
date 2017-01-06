@@ -67,3 +67,6 @@ git branch -d dev  	//delete branch dev
 删除分支：git branch -d <name>
 
 confix branch
+
+git checkout -b feather     //create a new branch is quick and simple.
+
