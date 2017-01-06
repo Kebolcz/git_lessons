@@ -75,4 +75,16 @@ git log --graph --pretty=oneline --abbrev-commit
 merge branch------------------------------------------------------------------->
 git merge --no-ff -m "merge with --no-ff" dev  (HEAD->master)
 
+Stash-------------------------------------------------------------------------->
 
+git stash            //把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+
+git status          //用git status查看工作区，就是干净的
+
+...................after do something ,you back...........
+
+git stash list 
+
+git stash apply     git stash drop
+
+git stash pop
