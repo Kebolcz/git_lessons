@@ -1,2 +1,7 @@
-git is a distributed version of control system.
-git is a free software.
+git init 
+git config --global user.name "kebolcz"
+git config --global user.email "07_master@sina.com"
+git add <file>
+git commit -m "Initial a first commit!"
+git status
+git diff <file>
