@@ -66,10 +66,13 @@ git branch -d dev  	//delete branch dev
 
 删除分支：git branch -d <name>
 
-confix branch
+confix branch------------------------------------------------------------------>
 
 git checkout -b feature    //create a new branch is simple & quick.
 
 git log --graph --pretty=oneline --abbrev-commit
 
+merge branch------------------------------------------------------------------->
 git merge --no-ff -m "merge with --no-ff" dev  (HEAD->master)
+
+
